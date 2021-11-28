@@ -1,2 +1,0 @@
-# RescuesConnect
-RescuesConnect - Dog Rescue
