@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- build:css css/main.css -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="./Styles_RC.css" />
+    <link rel="stylesheet" href="./css/Styles_RC.css" />
     <!-- endbuild -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
@@ -18,120 +18,147 @@
 
 <body>
     <header>
-        <div class="row">
-            <div class="col col-sm-1">
-                <img src="./Images/dog silouette.png" alt="Pitbull silouette with heart cutout" width="125" height="125"
-                    style="padding: 10px; img-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark navbar-collapse sticky-top">
+            <a class="navbar-brand" href="#"><img src="./Images/dog silouette.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rescuesConnectNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse id=" rescuesConnectNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-users fa-lg"></i>
+                            WHO WE ARE</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-usd fa-lg"></i> DONATE TO
+                            HELP</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-handshake-o fa-lg"></i>
+                            VOLUNTEER</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-newspaper-o fa-lg"></i>
+                            NEWS&EVENTS</a>
+                    </li>
+                </ul>
+                </span>
             </div>
-            <div class="col-11" style="padding: 10px;">
-                <nav class="navbar navbar-expand-md navbar-dark bg-dark inline img-fluid">
-                    <button class="btn btn-active w-100 m-1" id="settings" name="settings">HOME</button>
-                    <button class="btn  w-100 m-1" id="settings" name="settings">WHO WE ARE</button>
-                    <button class="btn  w-100 m-1" id="settings" name="settings">DONATE TO HELP</button>
-                    <button class="btn  w-100 m-1" id="settings" name="settings">REACH OUT & RESCUE</button>
-                    <button class="btn  w-100 m-1" id="settings" name="settings">NEWS & EVENTS</button>
-                    <button class="btn  w-100 m-1" id="settings" name="settings">LEGAL RESOURCES</button>
-                </nav>
-            </div>
-        </div>
+        </nav>
     </header>
 
     <main>
         <!-- Slideshow container -->
-        <div class="slideshow-container">
-            <div class="row">
-
-                <div class="container">
-                    <div class="caption">
-                        <img src="./Images/RescuesCOnnect_No Background.png">
-                    </div>
-                </div>
-
-                <div class="carousel-inner">
-                    <!-- Full-width images with number and caption text -->
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/freedomride1.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us help you... help the dogs.</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/freedomride7.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us save you time on the logistics... and make more time for
-                            the
-                            rescues.</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/freedomride6.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us be your first destination, so you can get them to their
-                            final
-                            destination.</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/freedomride8.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us be your first destination, so you can get them to their
-                            final
-                            destination.</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow2.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us be your first destination, so you can get them to their
-                            final
-                            destination.</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow3.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us be your first destination, so you can get them to their
-                            final
-                            destination.</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow4.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us be your first destination, so you can get them to their
-                            final
-                            destination.</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow5.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us be your first destination, so you can get them to their
-                            final
-                            destination.</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow6.jpg" style="max-width:100%">
-                        <div class="carousel-caption">Let us be your first destination, so you can get them to their
-                            final
-                            destination.</div>
-                    </div>
-
-                    <!-- The dots/circles -->
-                    <div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                    </div>
-                </div>
-            </div>
-            <div>
+        <div id="wrapper">
+            <div class="slideshow-container">
                 <div class="row">
-                    <h1>How RescuesConnect Brings it all together....</h1>
-                    <p class="col col-md-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
-                    <img class="col" src="./Images/doglineheaderreverse.jpg" style="max-width: 100%;">
+                    <div class="container">
+                        <div class="caption">
+                            <img class="img-fluid" src="./Images/RescuesCOnnect_No Background.png">
+                        </div>
+                    </div>
+
+                    <div class="carousel-inner" style="max-width: 50%;">
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/freedomride1.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us help you... help the dogs.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/freedomride7.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us save you time on the logistics... and make more time
+                                for
+                                the
+                                rescues.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/freedomride6.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us be your first destination, so you can get them to their
+                                final
+                                destination.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/freedomride8.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us be your first destination, so you can get them to their
+                                final
+                                destination.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow2.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us be your first destination, so you can get them to their
+                                final
+                                destination.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow3.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us be your first destination, so you can get them to their
+                                final
+                                destination.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow4.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us be your first destination, so you can get them to their
+                                final
+                                destination.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow5.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us be your first destination, so you can get them to their
+                                final
+                                destination.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img class="d-block mx-auto img-fluid" src="./Images/headoutwindow6.jpg"
+                                style="max-width:100%">
+                            <div class="carousel-caption">Let us be your first destination, so you can get them to their
+                                final
+                                destination.</div>
+                        </div>
+
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
                 </div>
             </div>
+            <div class="row">
+                <h1>How RescuesConnect Brings it all together....</h1>
+                <p class="col col-md-8">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                    Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                    passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions
+                    of
+                    Lorem Ipsum.</p>
+                <img class="col" src="./Images/doglineheaderreverse.jpg" style="max-width: 100%;">
+            </div>
+        </div>
+
     </main>
 
 
